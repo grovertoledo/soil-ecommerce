@@ -25,5 +25,10 @@
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-props-no-spreading": "off"
   },
-  "root": true
+  "root": true,
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
 }
