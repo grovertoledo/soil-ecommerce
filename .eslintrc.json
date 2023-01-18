@@ -22,7 +22,21 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "jsx-quotes": ["error", "prefer-single"],
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "no-underscore-dangle": "off",
+    "import/extensions": [
+      "off",
+      "ignorePackages",
+      { "js": "never", "jsx": "never", "ts": "never", "tsx": "never" }
+    ],
+    "no-restricted-exports": "off",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   },
   "root": true,
   "settings": {
