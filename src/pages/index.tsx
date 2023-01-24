@@ -4,7 +4,7 @@ import Head from 'next/head';
 const Home = () => (
   <>
     <Head>
-      <title>Tierra fértil</title>
+      <title>Lili&apos;s garden | Home</title>
       <meta
         name='description'
         content='Tienda virtual de humus, lombrices y plantas'
